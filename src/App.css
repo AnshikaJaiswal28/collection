@@ -1,0 +1,140 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f8f9fa; /* Light gray background */
+}
+
+h2, h3 {
+  color: #333; /* Dark gray text */
+  text-align: center;
+  font-family: 'Montserrat', sans-serif; /* Example heading font */
+}
+
+nav {
+  height: 60px;
+  padding: 0 20px;
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-right: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 25px;
+  color: #f8f9fa;
+}
+
+.app-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background-image: linear-gradient(to bottom, #f5f7fa, #e0e4e8); /* Example gradient (light blue to slightly darker blue) */
+}
+
+ul {
+  list-style-type: none; /* Remove default bullets */
+  padding: 0;
+  text-align: center;
+}
+
+li {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  cursor: pointer; /* Add cursor pointer on hover */
+  text-align: center; /* Center text within list item */
+  font-size: 18px;
+}
+
+li:hover {
+  background-color: #f2f2f2; /* Change background color slightly on hover */
+  transform: scale(1.05);
+  transition: all 0.2s ease-in-out;
+}
+
+/* Button */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Form Container */
+.form-container {
+  display: flex; /* Use Flexbox for horizontal alignment */
+  justify-content: center; /* Center elements horizontally */
+  align-items: center; /* Maintain vertical alignment (unchanged) */
+  margin-top: 20px;
+  height: 100px; /* Adjust height if needed */
+  flex-direction: column; /* Add this line to make elements stack vertically */
+}
+
+input[type="text"] {
+  padding: 10px 15px; /* Adjust padding for a better fit */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 70%; /* Adjust width as needed */
+}
+
+.new-movie-message {
+  color: green;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Login Page Styles */
+.login-container {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+.login-container h2 {
+  margin-bottom: 30px;
+}
+
+.login-container input[type="email"],
+.login-container input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.login-container button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+.login-container button:hover {
+  background-color: #45a049;
+}
